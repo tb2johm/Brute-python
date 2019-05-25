@@ -19,12 +19,16 @@ for name, obj in inspect.getmembers(solver_plugins[0], inspect.isclass):
 def main():
 
     print("----Setup----")
-    board = Board(2, 4)
+    board = Board(2, 8)
 
     bricks = []
-    bricks.append(Brick(1, [[1,1,1]]))
+    bricks.append(Brick(1, [[1,1]]))
     bricks.append(Brick(2, [[1,1,1,1],
-                           [1,0,0,0]]))
+                            [1,0,0,0]]))
+    bricks.append(Brick(3, [[0,1,1],
+                            [1,1,1]]))
+    bricks.append(Brick(4, [[0,1,1],
+                            [1,1,0]]))
 
     print("----Playing----")
 
