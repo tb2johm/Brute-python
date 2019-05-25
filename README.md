@@ -18,7 +18,7 @@ to create a solver that solves the pussle automatically.
 ## Instructions
 * Clone the repo
 * Setup the virtual environment
-  `pip3 virtualenv venv && source .env/bin/activate && pip3 install -r requirements.txt`
+  `pip3 virtualenv venv && source venv/bin/activate && pip3 install -r requirements.txt`
 * Look in the *Brute.py* file to see all the bricks
 * Look in the *solvers/my_solver.py* file to undertand how to place the bricks on the board
 * Modify the *solve* function in *solvers/my_solver.py*
