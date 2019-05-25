@@ -9,6 +9,7 @@ to create a solver that solves the pussle automatically.
 ### Rules
 * All bricks need too be placed
 * A brick can only be used once
+* No other files other than then *my_solver.py* is allowed to be changed
 
 ## Requirements
 * Python3
